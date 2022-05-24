@@ -1,0 +1,39 @@
+.container {
+    display: block;
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-third {
+    width: 33%;
+}
+
+.col-half {
+    width: 50%;
+}
+
+.col-4th {
+    width: 25%;
+}
+
+.col-34th {
+    width: 75%;
+}
+
+@media screen and (max-width: 600px) {
+    .col-third {
+        width: 33%;
+    }
+
+    .col-half {
+        width: 50%;
+    }
+
+    .col-4th {
+        width: 25%;
+    }
+}
