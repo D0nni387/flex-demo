@@ -24,20 +24,12 @@
     width: 75%;
 }
 
-.col-8th {
-    width: 12%;
-}
 
 @media screen and (max-width: 600px) {
-    .col-third {
-        width: 33%;
-    }
 
+    .col-third,
+    .col-4th,
     .col-half {
-        width: 50%;
-    }
-
-    .col-4th {
         width: 100%;
     }
 }
