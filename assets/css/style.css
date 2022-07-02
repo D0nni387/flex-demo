@@ -24,6 +24,10 @@
     width: 75%;
 }
 
+.col-8th {
+    width: 12%;
+}
+
 @media screen and (max-width: 600px) {
     .col-third {
         width: 33%;
