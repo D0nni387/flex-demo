@@ -9,7 +9,7 @@
 }
 
 .col-third {
-    width: 33%;
+    width: 33.3%;
 }
 
 .col-half {
@@ -29,7 +29,8 @@
 
     .col-third,
     .col-4th,
-    .col-half {
+    .col-half,
+    .col-34th {
         width: 100%;
     }
 }
