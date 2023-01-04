@@ -2,6 +2,8 @@
     margin: 0;
 }
 
+
+/* grid layout */
 .container {
     display: block;
     width: 100%;
@@ -30,6 +32,11 @@
 
 .col-tenth {
     width: 10%;
+}
+
+.image-flex {
+    width: 100%;
+    height: auto;
 }
 
 
