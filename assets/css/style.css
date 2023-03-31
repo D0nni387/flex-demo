@@ -16,26 +16,32 @@
 
 .col-third {
     width: 33.3%;
+    outline: 1px black solid;
 }
 
 .col-half {
     width: 50%;
+    outline: 1px black solid;
 }
 
 .col-4th {
     width: 25%;
+    outline: 1px black solid;
 }
 
 .col-34th {
     width: 75%;
+    outline: 1px black solid;
 }
 
 .col-tenth {
     width: 10%;
+    outline: 1px black solid;
 }
 
 .image-flex {
     width: 100%;
+    outline: 1px black solid;
     height: auto;
 }
 
