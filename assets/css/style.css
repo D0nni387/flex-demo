@@ -39,6 +39,11 @@
     outline: 1px black solid;
 }
 
+.col-full {
+    width: 100%;
+    outline: 1px black solid;
+}
+
 .image-flex {
     width: 100%;
     outline: 1px black solid;
