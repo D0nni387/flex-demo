@@ -1,78 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <meta charset="utf-8">
-    <meta name="description" content="Keep Climbing - A climbing centre in Wokingham, Berkshire">
+  <head>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <meta charset="utf-8" />
+    <meta
+      name="description"
+      content="Keep Climbing - A climbing centre in Wokingham, Berkshire"
+    />
     <title>Flex Demo!</title>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <header>
+      <!-- Always go container row col, no rows in cols, no containers in rows! -->
+      <div class="container">
+        <div class="row">
+          <div class="col-full text-center">
+            <h1>Heres my logo!</h1>
+          </div>
+          <div class="col-4th"></div>
+          <div class="col-half">
+            <ul class="navbar-list">
+              <li>Home</li>
+              <li>Prices</li>
+              <li>Opening Times</li>
+              <li>Location</li>
+            </ul>
+          </div>
 
-        <!-- Always go container row col, no rows in cols, no containers in rows! -->
-        <div class="container">
-            <div class="row">
-                <div class="col-full">
-                    <h1>Hello there</h1>
-                </div>
-            </div>
+          <div class="col-4th"></div>
         </div>
+      </div>
     </header>
 
     <section class="container">
-        <div class="row">
-            <div class="col-third">
-                <h2></h2>
-            </div>
-            <div class="col-third">
-                <h2>33%</h2>
-            </div>
-            <div class="col-third">
-                <h2>33%</h2>
-            </div>
-            <div class="col-third">
-                <h2>33%</h2>
-            </div>
-            <div class="col-third">
-                <h2>33%</h2>
-            </div>
-            <div class="col-third">
-                <img class="image-flex" src="assets/images/logo.png" alt="this message is read by the screen reader">
-            </div>
+      <div class="row mt-2">
+        <div class="col-third">
+          <h2></h2>
         </div>
+        <div class="col-third">
+          <h2>33%</h2>
+        </div>
+        <div class="col-third">
+          <h2>33%</h2>
+        </div>
+        <div class="col-third">
+          <h2>33%</h2>
+        </div>
+        <div class="col-third">
+          <h2>33%</h2>
+        </div>
+        <div class="col-third">
+          <img
+            class="image-flex"
+            src="assets/images/logo.png"
+            alt="this message is read by the screen reader"
+          />
+        </div>
+      </div>
     </section>
 
     <footer>
-        <div>
-            <a href="https://facebook.com/" rel="noopener" target="_blank"
-                aria-label="Visit our Facebook page (opens in a new tab)">
-                <i class="fa-brands fa-facebook-square"></i>
-            </a>
-            <a href="https://twitter.com/" rel="noopener" target="_blank"
-                aria-label="Visit our Twitter (opens in a new tab)">
-                <i class="fa-brands fa-twitter-square"></i>
-            </a>
-            <a href="https://reddit.com/" rel="noopener" target="_blank"
-                aria-label="Visit our sub-reddit (opens in a new tab)">
-                <i class="fa-brands fa-reddit-square"></i>
-            </a>
-            <a href="https://instagram.com/" rel="noopener" target="_blank"
-                aria-label="Visit our instagram (opens in a new tab)">
-                <i class="fa-brands fa-instagram-square"></i>
-            </a>
-        </div>
-
+      <div>
+        <a
+          href="https://facebook.com/"
+          rel="noopener"
+          target="_blank"
+          aria-label="Visit our Facebook page (opens in a new tab)"
+        >
+          <i class="fa-brands fa-facebook-square"></i>
+        </a>
+        <a
+          href="https://twitter.com/"
+          rel="noopener"
+          target="_blank"
+          aria-label="Visit our Twitter (opens in a new tab)"
+        >
+          <i class="fa-brands fa-twitter-square"></i>
+        </a>
+        <a
+          href="https://reddit.com/"
+          rel="noopener"
+          target="_blank"
+          aria-label="Visit our sub-reddit (opens in a new tab)"
+        >
+          <i class="fa-brands fa-reddit-square"></i>
+        </a>
+        <a
+          href="https://instagram.com/"
+          rel="noopener"
+          target="_blank"
+          aria-label="Visit our instagram (opens in a new tab)"
+        >
+          <i class="fa-brands fa-instagram-square"></i>
+        </a>
+      </div>
     </footer>
     <!-- script to add free icons from FontAwesome
          All copyright attributable to Fonticons, Inc.
          https://fontawesome.com/license/free -->
-    <script src="https://kit.fontawesome.com/7b7566b38b.js" crossorigin="anonymous">
-    </script>
+    <script
+      src="https://kit.fontawesome.com/7b7566b38b.js"
+      crossorigin="anonymous"
+    ></script>
 
     <script src="assets/js/script.js"></script>
-</body>
-
+  </body>
 </html>
