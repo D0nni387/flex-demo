@@ -72,3 +72,7 @@
   justify-content: space-evenly;
   padding-left: 0;
 }
+
+.mb-2 {
+  margin-bottom: 2rem;
+}
